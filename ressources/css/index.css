@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(112, 126, 140);
+    -webkit-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    will-change: color;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 188, 156);
+}
+
+h1 {
+    font-size: 78px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+}
+
+h2 {
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+}
+
+h4 {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 17px;
+    font-family: "SourceSansPro";
+    color: rgb(112, 126, 140);
+    line-height: 1.571;
+}
+
+
+
+.slider {
+    background-image: url(../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 880px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.slider p {
+    color: rgb(194 203 212);
+}
+
+.btn {
+    border-radius: 3px;
+    background-color: rgb(0, 188, 156);
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    width: 295px;
+    height: 65px;
+    z-index: 175;
+    -webkit-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    will-change: background-color;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn>span {
+    font-size: 18px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -webkit-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    will-change: color;
+}
+
+.btn:hover>span {
+    color: rgb(0, 188, 156);
+}
+
+.slider-content {
+    margin: 25% 0;
+    padding: 0 15%;
+}
+
+.beautiful-clean {
+    text-align: center;
+    padding: 0 20%;
+}
+
+.card-content {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.card-content>img {
+    padding: 10px;
+}
+
+.grey-section {
+    background-color: rgb(242, 245, 247);
+}
+
+.box {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px -1px 0px 1px rgba(230, 233, 237, 0.004);
+    text-align: center;
+}
+
+.box>img {
+    width: 100%;
+}
+
+.box .box-content {
+    padding: 20px;
+}
+
+.images-pagination {
+    position: relative;
+    margin: 20px 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgb(80, 106, 133);
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: rgb(0, 188, 156);
+}
+
+.swiper-images {
+    margin: 30px 0;
+}
+
+.top-bar {
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+}
+
+.top-bar .top-bar-content, .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.top-bar .top-bar-content .contact-info {
+    display: flex;
+}
+
+.contact-info>div {
+    margin-right: 10px;
+}
+
+.mail, .phone, .adresse {
+    display: flex;
+    align-items: center;
+}
+
+.mail>img, .phone>img, .adresse>img {
+    margin-right: 5px;
+}
+
+.social-media>a>img {
+    margin-right: 10px;
+}
+
+
+
+.navbar_desktop>ul, .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.navbar_desktop>ul>li {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 35px;
+}
+
+.about-us {
+    background-color: rgb(47, 64, 82);
+    padding: 20px 10px;
+}
+
+.about-us .footer-title {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+}
+
+.more-about-us>span {
+    font-size: 17px;
+    font-family: "SourceSansPro";
+    color: rgb(112, 126, 140);
+    line-height: 1.571;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.four-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four-images>img {
+    margin: 0 5px 5px 0;
+}
+
+.copyrights {
+    background-color: rgb(40, 54, 69);
+    padding: 20px 10px;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu>li {
+    padding: 0 15px;
+}
+
+form {
+    position: relative;
+}
+
+footer .btn.btn-primary {
+    position: absolute;
+    top: 5%;
+    width: 30%;
+    max-height: 90%;
+    right: 2%;
+}
+
+.header_mobile, .navbar_mobile {
+    display: none;
+}
+.btn-to-top {
+    font-weight: 700;
+    font-family: "AverageSans";
+}
+
+.to-top i {
+    font-size: 22px;
+    margin: 0;
+    transition: all ease 0.3s;
+}
+
+.to-top {
+    display: none;
+    position: fixed;
+    padding: 0;
+    bottom: 45px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 38px;
+    z-index: 3;
+    background: rgb(80, 106, 133);
+    box-shadow: 0px 0px 27px 0px rgb(15 23 42 / 10%);
+    border: none !important;
+    color: rgb(255, 255, 255);
+    transition: all ease 0.3s;
+}
+
+  
+.to-top:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(80, 106, 133);
+}
+
+.to-top:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: currentColor;
+    display: block;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    text-indent: 0;
+    margin: 0 auto;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    transition: all ease 0.3s;
+    opacity: 0;
+}
+
+.to-top:hover:after {
+    margin-top: 2px;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width:1024px) {
+    .header_desktop {
+        display: none;
+    }
+
+    .header_mobile {
+        display: block;
+    }
+
+    .slider-content, .beautiful-clean {
+        padding: 0;
+    }
+
+    .about-us .footer-title, p {
+        font-size: 30px;
+    }
+
+    .copyrights {
+        text-align: center;
+
+    }
+
+    .footer-menu {
+        float: none;
+    }
+
+    .btn>span {
+        font-size: 25px;
+    }
+
+    .navbar_mobile {
+        display: none;
+    }
+
+    .opened {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 6px 0 rgba(221, 221, 221, .004);
+        width: 75%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        transition: .25s ease-in;
+        padding: 10px 0
+    }
+    .navbar_mobile>ul>li{
+        font-size: 30px;
+        list-style-type: none;
+        padding: 30px;
+    }
+}
+
+  
